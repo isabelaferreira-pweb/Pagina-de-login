@@ -1,0 +1,100 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://img.cancaonova.com/cnimages/canais/uploads/sites/11/2024/08/selecao-feminina-volei-brasil-medalha-bronze-olimpiadas-paris-2024-_-foto-Foto-Miriam-JeskeCOB.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #333;
+
+    display: flex;
+    justify-content: center;  
+    align-items: center;      
+    flex-direction: column; 
+    padding: 0 20px;
+}
+
+form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input:not([type="checkbox"]):not([type="radio"]) {
+    padding: 10px;
+    width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    justify-content: center;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.botao {
+    flex: 1;
+    padding: 10px;
+    background-color: #ddce5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.botao:hover {
+    background-color: #ddce5e;
+}
+
+.limpar {
+    background-color: #ddce5e;
+}
+
+.limpar:hover {
+    background-color: #ddce5e;
+}
+
+.link-esqueci {
+    text-align: right;
+    margin-top: 10px;
+}
+
+.link-esqueci a {
+    font-size: 14px;
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.link-esqueci a:hover {
+    text-decoration: underline;
+}
